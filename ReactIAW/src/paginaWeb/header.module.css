@@ -1,0 +1,20 @@
+.cabecera{
+    background: linear-gradient(rgba(22, 221, 211, 0.758) 25%, transparent 75%),  url('https://www.unir.net/wp-content/uploads/2022/11/concepto-de-computaciC3B3n-en-nube-como-grupo-de-iconos.jpg_s1024x1024wisk20c2_ZA4fNdzAughsN2BhqGVRbvrVgxwJOgPyuuhS8bkJU.jpg') no-repeat center;
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width:100%;
+    display:flex;
+    flex:row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:800px){
+    .cabecera{
+        background-color: greenyellow;
+        background-image: none;
+    }
+
+  }

@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    height: auto;
+    font-size: 17px;
+    text-align: center;
+}
+
+nav a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidonav {
+    color: aqua;
+    background-color: darkgreen;
+    padding: 0;
+    text-decoration: none;
+    border: solid 1px black;
+}
+
+.contenidonav:hover {
+    background-color: lightslategray;
+}
