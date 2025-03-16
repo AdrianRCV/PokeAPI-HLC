@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-env-config
+  namespace: sp-auto
+data:
+  CONTEXTO: /home/adrian/HLC-Docker_y_Kubernetes/ACVExamenHLC
+  AUTOR: adriancv
+  TZ: Europe/Madrid
+  PROYECTO: PokeAPI-HLC
+  GITHUB: https://github.com/AdrianRCV/PokeAPI-HLC.git
+  USUARIO: adrian
+  PASSWD: adrian
+  HOSTNAME: PokeAPI-HLC
+  PORT_SSH: "45678"
+  PORT_ORIGEN: "8082" 
